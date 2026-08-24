@@ -1,0 +1,8 @@
+[package]
+name = "rv32i-emulator"
+version = "0.1.0"
+edition = "2021"
+authors = ["Mohnish Sheth"]
+description = "A compact RV32I instruction set emulator"
+
+[dependencies]
