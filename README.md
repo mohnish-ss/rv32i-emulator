@@ -64,7 +64,3 @@ The integration tests cover arithmetic and `x0` behavior, the `ECALL` halt conve
 ## Limitations
 
 The emulator loads raw binaries only. It does not implement an ELF loader, CSRs, interrupts, privilege levels, caches, floating point, atomics, compressed instructions, or the integer multiply/divide extension. Misaligned taken control-flow targets are reported by the next instruction fetch rather than at the branch or jump itself.
-
-## Authors
-
-Developed individually by Mohnish Sheth.
